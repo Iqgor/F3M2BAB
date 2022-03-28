@@ -19,7 +19,7 @@ void loop(){
 
   Serial.println(LichtHoeveelheid);
 
-  if (LichtHoeveelheid > 16){
+  if (LichtHoeveelheid > 50){
     digitalWrite(Led1, HIGH);
   }
 
@@ -29,7 +29,7 @@ void loop(){
     digitalWrite(Led1, LOW);
   }
   
-  if (LichtHoeveelheid > 13){
+  if (LichtHoeveelheid > 30){
     digitalWrite(Led2, HIGH);
   }
 
@@ -39,7 +39,7 @@ void loop(){
     digitalWrite(Led2, LOW);
   }
 
-  if (LichtHoeveelheid > 11){
+  if (LichtHoeveelheid > 28){
     digitalWrite(Led3, HIGH);
   }
 
